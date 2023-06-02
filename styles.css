@@ -5,6 +5,7 @@ body {
 h1 {
     color: #46484c;
     text-align: center;
+    max-width: 100%;
 }
 
 p {
@@ -17,3 +18,12 @@ button {
     color: #fff;
     background-color: #025157;
 }
+
+
+img {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
