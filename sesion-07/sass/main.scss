@@ -1,5 +1,20 @@
+@use 'global' as *;
+
 .blog {
-background-color: crimson;
-height: 300px;
-width: 300px;
+    height: $size;
+    width: $size;
+    background-color: $azul;
+}
+
+div {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        color: red;
+        font-size: large;
+    }
 }
