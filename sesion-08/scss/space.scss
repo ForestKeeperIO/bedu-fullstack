@@ -1,0 +1,27 @@
+.espacio {
+margin: 0 auto;
+height: 130px;
+width: 130px;
+margin-bottom: 35px;
+margin-top: 50px;
+
+    .nave contenedor {
+
+        position: relative;
+        height: 150px;
+        width: 150px;
+        margin-bottom: 65px;
+
+        .nave {
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            
+            img {
+                width: 130px;
+                
+            }
+        }
+    }
+
+}
