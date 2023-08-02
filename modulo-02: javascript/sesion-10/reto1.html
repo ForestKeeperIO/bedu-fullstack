@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta charset="utf8"/>
+  <title>Reto 1: Inflar un globo</title>
+  <style>
+    #balloon {
+      font-size: 20px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <p id="balloon">🎈</p>
+
+  <script>
+    var balloon = document.getElementById('balloon');
+    var size = 20;
+
+    function handleKeydown(event) {
+      if (event.key === 'ArrowUp') {
+        event.preventDefault();
+        size *= 1.10;
+        balloon.style.fontSize = size + 'px';
+      } else if (event.key === 'ArrowDown') {
+        event.preventDefault();
+        size *= 0.90;
+        balloon.style.fontSize = size + 'px';
+      }
+
+      if (size >= 80) {
+        balloon.textContent = '💥';
+        window.removeEventListener('keydown', handleKeydown);
+      }
+    }
+
+    window.addEventListener('keydown', handleKeydown);
+  </script>
+</body>
+</html>
+x

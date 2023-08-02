@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build" : "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ForestKeeperIO/sesion01.git"
+    "url": "git+https://github.com/ForestKeeperIO/sesion08.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ForestKeeperIO/sesion01/issues"
+    "url": "https://github.com/ForestKeeperIO/sesion08/issues"
   },
-  "homepage": "https://github.com/ForestKeeperIO/sesion01#readme"
+  "homepage": "https://github.com/ForestKeeperIO/sesion08#readme"
 }
